@@ -23,6 +23,8 @@ public class Perceptron {
 
         boolean errorFound;
         int iteration = 0;
+        
+        System.out.printf("\nPesos iniciales: w0 = %.8f, w1 = %.8f, w2 = %.8f\n", w0, w1, w2);
 
         do {
             errorFound = false;
